@@ -1,10 +1,10 @@
 import axios from "axios";
 
 // for locat testing
-const API_URL = "http://localhost:5000";
+// const API_URL = "http://localhost:5000";
 
 // for prod
-// const API_URL = "https://glimpse-backend-indol.vercel.app";
+const API_URL = "https://keye-backend-bbns.vercel.app";
 
 const fetchGrowthData = async (): Promise<FetchGrowthDataResponse> => {
   try {
